@@ -26,3 +26,23 @@ a {
     object-position: center;
     max-height: 70px;
 }
+
+.search-box {
+    width: 280px;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 0px 20px;
+    margin-left: auto;
+}
+
+.search-box input{
+    width: 95%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
