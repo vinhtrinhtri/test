@@ -46,3 +46,27 @@ a {
     border: none;
     outline: none;
 }
+
+.search-box button{
+    color: #333;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btns a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fed2d1;
+}
