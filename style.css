@@ -3,6 +3,7 @@
     padding:0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    border: 1px solid;
 }
 ul{
     list-style: none;
@@ -38,7 +39,7 @@ a {
     padding: 0px 20px;
     margin-left: auto;
 }
-
+/*
 .search-box input{
     width: 95%;
     height: 100%;
@@ -133,3 +134,4 @@ a {
     border-bottom: 1px solid #646464;
     margin-top: 30px;
 }
+*/
