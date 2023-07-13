@@ -72,6 +72,25 @@
                 </div>
             </div>
         </section>
-        
+        <section id="new-products">
+            <div class="new-p-heading">
+                <h3>New Product's</h3>
+                <ul>
+                    <li class="active">All</li>
+                    <li>Skin</li>
+                    <li>Makeup</li>
+                    <li>Nail's</li>
+                </ul>
+            </div>
+        </section>
+
+        <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+        <script>
+            var selector ='.new-p-heading li';
+            $(selector).on('click',function(){
+                $(selector).removeClass('active')
+            
+            });
+        </script>
     </body>
 </html>
